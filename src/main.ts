@@ -18,7 +18,7 @@ function useProd(app: INestApplication): void {
 
     app.use(cookieParser());
 
-    app.use(csurf({ cookie: true }));
+    app.use(csurf({ cookie: false }));
 
     app.use(
         rateLimit({
