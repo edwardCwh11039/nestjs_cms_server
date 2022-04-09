@@ -12,7 +12,7 @@ export class AppController {
 
     @Get()
     index(@Res() response: Response) {
-        response.redirect('https://cms-lyart.vercel.app');
+        response.redirect('https://nextjs-client-app.vercel.app');
     }
 
     @Get('degrees')
