@@ -2,9 +2,6 @@
 
 Implemented by [Nest](https://github.com/nestjs/nest).
 
-## Description
-
-The server for [CMS](https://github.com/chtocode/CMS).
 
 ## Installation
 
